@@ -6,14 +6,14 @@ Use the keyboard to type in letters you get 6 wrong guesses until the man is hun
 
 ## Installation with Docker
 1. Clone the repository
-     '''bash
-     git clone https://github.com/hsrobinson06-max/hangman/
-     cd hangman
-   '''
+'''bash
+git clone https://github.com/hsrobinson06-max/hangman/
+cd hangman
+'''
 3. Compose Docker container
-     '''bash
-   docker compose up --build
-   '''
+'''bash
+docker compose up --build
+'''
 5. Access the website through docker 
 
 ## License 
