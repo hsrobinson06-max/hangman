@@ -3,7 +3,7 @@ const KEYS = [
     "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
   ];
   
-  export default function Keyboard({ guessedLetters, addGuessedLetter, disabled = false }) {
+  export default function Keyboard({guessedLetters, addGuessedLetter, disabled = false}) {
     return (
       <div
         style={{
