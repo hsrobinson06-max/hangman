@@ -55,10 +55,10 @@ export default function App() {
       {(isWon || isLost) && (
         <div className="modal-overlay">
           <div className="modal-content">
-            <h2>{isWon ? "You Won!" : "Game Over!"}</h2>
+            <h2>{isWon ? "You Win!" : "Game Over!"}</h2>
             <p>
               {isWon
-                ? "Great job guessing the word!"
+                ? "You Win!"
                 : `The word was: ${wordToGuess}`}
             </p>
             <button className="btn-new-game" onClick={resetGame}>
@@ -78,7 +78,7 @@ export default function App() {
 
       <GuessedLetters guessedLetters={guessedLetters} />
 
-      <div style={{ marginTop: "30px" }}>
+      <div style={{marginTop: "30px"}}>
         <button className="btn-new-game" onClick={resetGame}>
           New Game
         </button>
