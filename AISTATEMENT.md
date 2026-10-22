@@ -1,0 +1,1 @@
+The AI model I used was Gemini. I used AI to help me with the layout of the game and the logic for the pictures to cycle through. I learned a new method to engage with changing photos and little more on how to design the layout of projects.
