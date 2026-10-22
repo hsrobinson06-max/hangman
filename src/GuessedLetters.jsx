@@ -1,8 +1,8 @@
-export default function GuessedLetters({ guessedLetters }) {
+export default function GuessedLetters({guessedLetters}) {
   if (guessedLetters.size === 0) return null;
 
   return (
-    <div style={{ margin: "20px 0" }}>
+    <div style={{margin: "20px 0"}}>
       <h3>Letters Used:</h3>
       <div 
         style={{ 
