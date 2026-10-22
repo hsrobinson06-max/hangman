@@ -1,4 +1,4 @@
-export default function HangmanVisual({ numberOfGuesses }) {
+export default function HangmanVisual({numberOfGuesses}) {
   const imageIndex = Math.min(numberOfGuesses, 6);
 
   return (
