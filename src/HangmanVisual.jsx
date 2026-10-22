@@ -16,7 +16,7 @@ export default function HangmanVisual({numberOfGuesses}) {
         }} 
       />
       <p style={{ marginTop: "10px", fontWeight: "bold" }}>
-        Lives Remaining: {Math.max(6 - numberOfGuesses, 0)} / 6
+        Guesses Left: {Math.max(6 - numberOfGuesses, 0)} / 6
       </p>
     </div>
   );
