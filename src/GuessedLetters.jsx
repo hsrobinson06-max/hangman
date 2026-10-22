@@ -1,9 +1,4 @@
-/**
- * GuessedLetters Component
- * Renders an organized, alphabetized list of letters that the user has already typed and tried.
- */
 export default function GuessedLetters({ guessedLetters }) {
-  // Return nothing if no letters have been guessed yet
   if (guessedLetters.size === 0) return null;
 
   return (
@@ -19,7 +14,6 @@ export default function GuessedLetters({ guessedLetters }) {
           margin: "0 auto"
         }}
       >
-        {/* Convert the Set to an array, sort alphabetically, and map to UI pills */}
         {Array.from(guessedLetters).sort().map((letter) => (
           <span
             key={letter}
