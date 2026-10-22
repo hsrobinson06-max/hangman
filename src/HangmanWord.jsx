@@ -1,4 +1,4 @@
-export default function HangmanWord({ wordToGuess, guessedLetters, isLost = false }) {
+export default function HangmanWord({wordToGuess, guessedLetters, isLost = false}) {
   return (
     <div
       style={{
